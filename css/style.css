@@ -1,7 +1,7 @@
 /* Nav_Bar_White: */
 body, html {
   margin: 0;
-  padding: 0 60px;
+  /* padding: 0 60px; */
   /* outline: 1px black solid; */
 }
 
@@ -67,9 +67,25 @@ nav ul li a {
 }
 
 section.discover {
-  height: 837px;
+  max-height: 937px;
+  /* width: 1440px; */
   background: url('../images/background.png');
   background-size: cover;
+}
+
+.row {
+  padding: 27px 50px;
+  width: 1320px;
+}
+
+.col img {
+  width: 100%;
+
+}
+
+.col-content {
+  height: 350px;
+  padding: 80px 0;
 }
 
 /* .main-box {
