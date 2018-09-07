@@ -24,6 +24,10 @@ a {
   text-align: center;
 }
 
+section {
+  padding: 10px 0;
+}
+
 
 
 
@@ -128,5 +132,22 @@ section.discover {
 
 .flex-grid-thirds .col {
   width: 30%;
-  border: 1px black solid;
+  /* border: 1px black solid; */
+}
+
+.container {
+  display: flex;
+
+}
+
+.right-col, .left-image {
+  width: 50%;
+}
+
+.right-col {
+  background-color: #F8E71C
+}
+
+.left-image img {
+  width: 100%;
 }
