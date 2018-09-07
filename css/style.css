@@ -47,6 +47,18 @@ nav ul li a {
 
 }
 
+.header-image img {
+  width: 980px;
+  float: right;
+
+}
+
+.header-heading {
+  width: 382px;
+  height: 165px;
+}
+
+
 
 
 /* 6: */
