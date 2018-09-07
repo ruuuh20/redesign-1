@@ -1,7 +1,7 @@
 /* Nav_Bar_White: */
 body, html {
   margin: 0;
-  padding: 0;
+  padding: 0 60px;
   /* outline: 1px black solid; */
 }
 
@@ -11,9 +11,14 @@ max-width: 1440px;
 color: blue;
 }
 
-.header {
-  flex-direction: column;
+.section-title h1 {
+  font-size: 45px;
+  padding-top: 62px;
+  color: #d0021b;
+  text-align: center;
 }
+
+
 
 /* nav {
   height: 20%;
@@ -51,12 +56,32 @@ nav ul li a {
   width: 980px;
   float: right;
 
+
+
 }
 
-.header-heading {
-  width: 382px;
-  height: 165px;
+
+.discover {
+  clear: both;
 }
+
+/* .main-box {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: white;
+
+
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+} */
+
+
+
+/* .header-image {
+    display: flex;
+    flex-direction: column;
+
+} */
 
 
 
