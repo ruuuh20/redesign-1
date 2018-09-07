@@ -1,0 +1,103 @@
+/* Nav_Bar_White: */
+body, html {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px black solid; */
+}
+
+nav {
+background: #FFFFFF;
+max-width: 1440px;
+color: blue;
+}
+
+.header {
+  flex-direction: column;
+}
+
+/* nav {
+  height: 20%;
+} */
+
+.main-menu {
+  display: flex;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu>li {
+  /* display: inline-block; */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 40px 46px;
+
+}
+
+.logo img  {
+  width: 200px;
+  height: 100%;
+  /* background: rgba(0,0,0,0.3); */
+
+}
+
+
+
+/* 6: */
+font-family: .AppleSystemUIFont;
+font-size: 18px;
+color: #666666;
+/* Oval 2: */
+background: #D0021B;
+/* BR: */
+font-family: Baskerville;
+font-size: 20px;
+color: #FFFFFF;
+text-align: center;
+line-height: 18px;
+/* Oval 3: */
+background: #FFFFFF;
+/* Home: */
+font-family: Baskerville;
+font-size: 18px;
+color: #D0021B;
+text-align: center;
+/* Line 5: */
+border: 1px solid #D0021B;
+/* Men: */
+font-family: Baskerville;
+font-size: 18px;
+color: #000000;
+text-align: center;
+/* Women: */
+font-family: Baskerville;
+font-size: 18px;
+color: #000000;
+text-align: center;
+/* Style & Accessories: */
+font-family: Baskerville;
+font-size: 18px;
+color: #000000;
+text-align: center;
+/* My Account: */
+font-family: .AppleSystemUIFont;
+font-size: 18px;
+color: #3B3B3B;
+text-align: center;
+/* Shape: */
+background: #000000;
+/* Saved Items: */
+font-family: Baskerville;
+font-size: 18px;
+color: #3B3B3B;
+text-align: center;
+/* Shape: */
+background: #000000;
+/* Oval: */
+border: 0 solid #000000;
