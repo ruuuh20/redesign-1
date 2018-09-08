@@ -199,3 +199,15 @@ section.discover {
   height: 362px;
   margin: auto;
 }
+
+section.featured {
+  max-height: 937px;
+  /* width: 1440px; */
+  background: url('../images/background2.png');
+  background-size: cover;
+
+}
+
+.featured .col-content {
+  font-family: sans-serif;
+}
